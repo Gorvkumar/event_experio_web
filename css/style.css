@@ -483,7 +483,7 @@ margin-left: 0;
 }
 
 .footer {
-  background: #ffffff;
+  background: transparent;
   padding: 40px 5%;
   font-weight: 400;
   font-size: 14px;
@@ -491,7 +491,7 @@ margin-left: 0;
   max-width: 1400px;
   height: auto;
   position: relative;
-  border-radius: 10px;
+  border-radius: 50px 50px 0px 0px;
   box-shadow: 0 4px 10px rgba(73, 118, 231, 0.2);
   margin: 50px auto 0px;
 }
