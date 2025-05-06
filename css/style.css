@@ -599,7 +599,7 @@ margin-left: 0;
 
 .footer-links {
   display: flex;
-  gap: 25px;
+  gap: 60px;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -672,6 +672,10 @@ margin-left: 0;
 
 .footer-policy-links a:hover {
   text-decoration: underline;
+}
+
+.footer-heading-small{
+  display: none;
 }
 /* Mobile menu toggle - hide on larger screens */
 .mobile-menu-toggle {
@@ -784,7 +788,7 @@ margin-left: 0;
   .nav-links.active {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
   }
 
@@ -967,8 +971,9 @@ margin-left: 0;
   }
 
   .about-section p {
-    font-size: 16px;
-    line-height: 28px;
+    font-size: 14px;
+        text-align: center;
+        line-height: 25px;
   }
 
   .about-section p br {
@@ -995,6 +1000,7 @@ margin-left: 0;
 .footer{
   margin: 0 auto;
 }
+
 
 
 }
@@ -1052,6 +1058,7 @@ margin-left: 0;
     gap: 20px;
     padding-bottom: 20px;
   }
+  
 
   /* Style for the mobile menu button that will be added via JS */
   .mobile-nav-button {
@@ -1075,15 +1082,62 @@ margin-left: 0;
   .mobile-nav-button button:hover {
     opacity: 0.85;
   }
-}
 
-/* Mobile styles */
-@media (max-width: 768px) {
   .footer-top {
    
     flex-direction: column;
   }
   .footer-links{
     flex-direction: column;
+    gap: 10px;
   }
+  .nav-links.active {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .nav-links a{
+    border-bottom: 1px solid rgb(156, 156, 156);
+  }
+  .footer-heading-small{
+    display: block;
+  }
+
+  .why-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #f9f9f9; 
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 20px auto;
+  }
+  
+  .why-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+  
+  .why-card-text h3 {
+    font-size: 1.2rem;
+    margin: 0 0 10px;
+    color: #333;
+  }
+  
+  .why-card-text p {
+    font-size: 1rem;
+    color: #666;
+    margin: 0;
+  }
+
 }
+
+
+/* Mobile styles */
+
