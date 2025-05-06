@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Event Experio</title>
+  <!-- Add Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="icon" type="image/svg" href="images/logo.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lato:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+  <header class="navbar">
+    <div class="left-section">
+      <a href="#home" class="logo">
+        <img src="images/logo.svg" alt="Logo" />
+        <span><b>Event Experio</b></span>
+      </a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#why-us">Why Us?</a>
+      </div>
+    </div>
+    <div class="nav-button">
+      <button onclick="location.href='#join-waitlist'">Join Waitlist</button>
+    </div>
+  </header>
+
+  <section class="hero-section" id="home">
+    <div class="hero-text">
+      <h1>Reimagining Event<br />Experiences</h1>
+      <p>
+        A next-generation digital platform to make every event truly
+        unforgettable — designed for guests, loved by hosts.
+      </p>
+      <button class="hero-button" onclick="location.href='#join-waitlist'">Join Waitlist</button>
+    </div>
+    <div class="hero-image">
+      <img class="hidden-sm" src="images/hero_section.svg" alt="Event Decoration" />
+    </div>
+  </section>
+
+
+ <div class="main-container">
+  <section class="about-section" id="about">
+    <h2>About Event Experio</h2>
+    <p>
+      At <b>Event Experio</b>, we believe that events should be more than just well-organized — they should be emotionally enriching and beautifully memorable.
+    </p>
+    <p>
+      We're building a digital-first platform focused on elevating guest experience across weddings, private gatherings, and special occasions — with a people-first design approach.
+    </p>
+    <p>
+      Currently in development, Event Experio is being thoughtfully developed by <b>EvXperio Technology Pvt. Ltd.</b> a Bengaluru-based event-tech startup.
+    </p>
+  </section>
+
+  <section class="why-experio" id="why-us">
+    <div class="why-container">
+      <h2>Why Event Experio?</h2>
+      <div class="why-cards">
+        <div class="why-card">
+          <img src="images/guest.svg" alt="Guest-Centric Design Icon" />
+          <h3>Guest-Centric Design</h3>
+          <p>
+            Designed with the guest experience as the priority — beautiful,
+            intuitive, and interactive.
+          </p>
+        </div>
+        <div class="why-card">
+          <img src="images/modern & traditional.svg" alt="Modern & Traditional Icon" />
+          <h3>Modern & Traditional</h3>
+          <p>From grand weddings to cozy celebrations, we adapt to your event culture.</p>
+        </div>
+        <div class="why-card">
+          <img src="images/verification.svg" alt="Private Beta Icon" />
+          <h3>Private Beta Version</h3>
+          <p>We're launching with purpose. Small, thoughtful, and secure — before going public.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <div class="vision-container"> -->
+    <section class="vision-section">
+      <div class="vision-text">
+        <h2>Our Vision</h2>
+        <p>To enhance how people connect, celebrate, and remember — through technology that stays invisible and moments that stay unforgettable.</p>
+      </div>
+      <div class="vision-image-container">
+        <div class="background-rectangle"></div>
+        <img src="images/Group_hand.svg" alt="Vision Image" class="vision-image">
+      </div>
+    </section>
+  <!-- </div> -->
+
+  <section class="waitlist-section" id="join-waitlist">
+    <div class="waitlist-container">
+      <div class="waitlist-image">
+        <img src="images/Email_Marketing.svg" alt="Join Waitlist Illustration" />
+      </div>
+      <div class="waitlist-content">
+        <h2>Join the Waitlist</h2>
+        <p>
+          Drop your details to receive exclusive updates and early access
+          invites before our public launch.
+        </p>
+        <form class="waitlist-form">
+          <input type="text" placeholder="Enter your Name" required />
+          <input type="text" placeholder="Enter your phone/email" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</div> <!-- End of main-container -->
+
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-left">
+          <div class="logo-section">
+            <img src="images/logo.svg" alt="Event Experio Logo" class="logo">
+            <span>Event Experio</span>
+          </div>
+          <div class="company-info">
+            <strong>EvXperio Technology Pvt. Ltd.</strong>
+            <h6>Bengaluru, Karnataka, India.</h6>
+            <a href="mailto:contact@eventexperio.com">contact@eventexperio.com</a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#why-us">Why Us?</a>
+          <a href="#join-waitlist">Join Waitlist</a>
+        </div>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <div class="footer-bottom">
+        <div class="left-text">
+          © 2025 EvXperio Technology Pvt. Ltd.
+        </div>
+        <div class="right-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Legal</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
